@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Lichen</title>
+
+        <link rel="stylesheet" href="bower_components/aconite/src/ui/css/playButton.css" type="text/css" />
+        <link rel="stylesheet" href="src/live-lichen.css" type="text/css" />
+
+        <script src="bower_components/flocking/dist/flocking-all.js"></script>
+
+        <script src="bower_components/aconite/src/core.js"></script>
+        <script src="bower_components/aconite/src/glComponent.js"></script>
+        <script src="bower_components/aconite/src/compositables.js"></script>
+        <script src="bower_components/aconite/src/clip-sequencers.js"></script>
+        <script src="bower_components/aconite/src/animation.js"></script>
+        <script src="bower_components/aconite/src/ui/js/playButton.js"></script>
+
+        <script src="src/lichen-gl.js"></script>
+        <script src="src/lichen-videos.js"></script>
+        <script src="src/live-lichen.js"></script>
+
+    </head>
+    <body>
+        <div class="video-container">
+            <img class="aconite-animator-play" src="bower_components/aconite/src/ui/images/play_overlay.png"></img>
+            <canvas class="aconite-animator-canvas" width="1920" height="1080" />
+        </div>
+
+        <p class="aconite-fps-display"><span class="aconite-fps-counter">0</span> fps</p>
+
+        <script>
+            var leaf = colin.lichen(".video-container");
+        </script>
+    </body>
+</html>

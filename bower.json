@@ -1,0 +1,10 @@
+{
+    "name": "live-lichen",
+    "version": "1.0.0",
+    "ignore": [],
+    "dependencies": {
+        "aconite": "colinbdclark/aconite",
+        "flocking": "colinbdclark/Flocking#graphical-ioc"
+    },
+    "devDependencies": {}
+}
